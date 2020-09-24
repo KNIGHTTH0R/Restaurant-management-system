@@ -1,0 +1,331 @@
+#tab {
+    font-family: 'Pacifico', cursive;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tab td, #tab th {
+    border: 1px solid #53545349;
+    padding: 8px;
+  }
+  
+  #tab tr:nth-child(even){background-color: #2e302e; color: white;}
+  #tab tr:nth-child(odd){background-color:#2e302ecc;color: white;}
+  
+  #tab tr:hover {background-color:rgba(255, 20, 145, 0.836);color: white;}
+  
+  #tab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #11111175;
+    color: deeppink !important;
+    font-family: 'Courier New', Courier, monospace;  
+  }
+  
+  
+  
+  .btn {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  .btn-green {background-color: #4CAF50;} /* Green */
+  .btn-blue {background-color: #008CBA;} /* Blue */
+  .btn-red {background-color: #f44336;} /* Red */
+  .btn-gray {background-color: #e7e7e7; color: black;} /* Gray */
+  .btn-black {background-color: #555555;} /* Black */
+
+  
+  #src{
+    height:100px;
+    width: 100%;
+    margin: 0;
+    background-color:#2e302e66;
+    text-align: center;
+  }
+  
+  input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color: deeppink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: pink;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  #src form {
+    font-size: large;
+    color: white;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    display: inline-block;
+    color: deeppink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 2px 1px 4px pink;
+  }
+  
+  .active {
+    background-color: red;
+  }
+
+  input[type=file] {
+    
+    background-color:deeppink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+  #border {
+    border: 1px solid gray;
+    padding: 8px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+  
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+ 
+
+  
+
+
+
+
+#src input[type=text] {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  
+}
+#src input[type=text]:hover {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#src input[type=submit] {
+  font-size: large;
+  width: 15%;
+  background-color: deeppink;
+  color: white;
+  text-shadow: 2px 2px 4px white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: pink;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+form {
+  font-size: large;
+  color: white;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+
+body {
+  background-color: #535453;
+  margin:0;
+  transition: background-color .5s;
+}
+
+.c {
+  text-align: center;
+  font-size: 60px;
+  color: #0e608f;
+}
+
+p {
+  font-size: 20px;
+}
+
+#demo {
+  margin-top: 1px;
+  font-size: 25px;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #e63946;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 2px 2px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: floralwhite;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+      padding-top: 15px;
+  }
+
+  .sidenav a {
+      font-size: 18px;
+  }
+}
+
+.reg {
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  width: 60%;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-style: italic;
+}
+.box-round {
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 100%;
+  height: 80%;
+  color:white;
+}
+
+.pink-head{
+    font-family: 'Pacifico', cursive;
+    color: deeppink;
+    font-size: larger;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  color: deeppink;
+  font-size: 2em;
+  text-align: center;
+}
+
